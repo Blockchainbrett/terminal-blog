@@ -59,12 +59,12 @@ const Layout = props => {
                 Community
               </a>
               <a
-                href="https://sites.terminal.co"
+                href="https://terminal.co"
                 title="Terminal"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Terminal Sites
+                Home
               </a>
             </div>
           </div>
@@ -76,15 +76,16 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
+        &copy; {new Date().getFullYear()}{" "}
+        <a href="https://terminal.co">Terminal Systems</a> &mdash; Built with{" "}
         <a
           href="https://gatsbyjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Gatsby
-        </a>
+        </a>{" "}
+        on <a href="https://ipfs.io">IPFS</a>
       </footer>
     </div>
   )
