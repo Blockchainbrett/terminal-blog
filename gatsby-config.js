@@ -2,7 +2,7 @@ const urljoin = require("url-join")
 const siteConfig = require("./siteConfig")
 
 module.exports = {
-  pathPrefix: "__GATSBY_IPFS_PATH_PREFIX__",
+  // pathPrefix: "__GATSBY_IPFS_PATH_PREFIX__",
   siteMetadata: {
     title: siteConfig.name,
     author: siteConfig.author,
@@ -99,7 +99,7 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
-    `gatsby-plugin-ipfs`,
+    // `gatsby-plugin-ipfs`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
