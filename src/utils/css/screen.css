@@ -123,6 +123,7 @@ body {
 
 .site-foot {
   margin: 3vw 0 1vw;
+  bottom: 0;
   text-align: center;
   color: color(var(--color-border) l(-20%));
   font-size: 1.4rem;
