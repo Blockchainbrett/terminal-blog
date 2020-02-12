@@ -76,8 +76,9 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()}{" "}
-        <a href="https://terminal.co">Terminal Systems</a> &mdash; Built with{" "}
+        &copy; {new Date().getFullYear()} Deployed on{" "}
+        <a href="https://ipfs.io">IPFS</a> with{" "}
+        <a href="https://terminal.co">Terminal,</a> &mdash; Built with{" "}
         <a
           href="https://gatsbyjs.org"
           target="_blank"
@@ -85,7 +86,6 @@ const Layout = props => {
         >
           Gatsby
         </a>{" "}
-        on <a href="https://ipfs.io">IPFS</a>
       </footer>
     </div>
   )
